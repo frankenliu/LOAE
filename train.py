@@ -222,7 +222,6 @@ def main():
         do_eval=True,
         dataloader_num_workers=num_workers,
         remove_unused_columns=False,
-        torch_compile=True,
         save_strategy="epoch",
         save_total_limit=num_epoch,
         greater_is_better=False,
